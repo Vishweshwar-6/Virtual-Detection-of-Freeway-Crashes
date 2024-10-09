@@ -37,13 +37,14 @@
   - **docs/**: Documentation of the methodology, model architecture, and findings from the study.
   - **README.md**: Overview of the project, setup instructions, and usage guidelines.
     
-Requirements:
-Python 3.x
-TensorFlow/PyTorch for CNN implementation
-Libraries: NumPy, Pandas, Matplotlib, Seaborn, OpenCV
+## Prerequisites:
+- Python 3.x
+- TensorFlow/PyTorch for CNN implementation
+- OpenCV for image processing
+- Required libraries listed in **requirements.txt**
 
-License:
-This project is licensed under the MIT License.
+## Note on Data Confidentiality
+  The original dataset used in this project is confidential and cannot be shared. A dummy dataset is included in this repository to demonstrate the model's functionality. For privacy reasons, sensitive information has been anonymized.
 
 Acknowledgments:
 We thank the Institute for Transportation and Dr. Anuj Sharma for providing the datasets used in this academic project. Special thanks to the Iowa Department of Transportation for their support.
