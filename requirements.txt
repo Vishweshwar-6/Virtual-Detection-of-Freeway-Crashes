@@ -1,0 +1,13 @@
+tensorflow==2.13.0/ torch==2.0.1 & torchvision==0.15.2
+pandas
+numpy
+oprncv-python
+pillow
+matplotlib
+ggplot2
+seaborn
+scikit-learn
+geopandas
+
+environment: jupyterlab==4.0.3
+
