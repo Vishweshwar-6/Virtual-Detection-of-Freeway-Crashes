@@ -31,11 +31,11 @@
   - Observed some false positives, indicating areas for improvement in real-time deployment.
 
 ## Contents:
-  -data/: Contains sample datasets used for training and evaluation (note: data used here is synthetic due to privacy concerns).
-  -crash detection.ipynb/: Jupyter notebooks for data preprocessing, image generation, and CNN training.
-  -evaluation/: Scripts and results for model evaluation on real-time crash data.
-  -docs/: Documentation of the methodology, model architecture, and findings from the study.
-  -README.md: Overview of the project, setup instructions, and usage guidelines.
+-**data/**: Contains sample datasets used for training and evaluation (note: data used here is synthetic due to privacy concerns).
+-**crash detection.ipynb/**: Jupyter notebooks for data preprocessing, image generation, and CNN training.
+-**results/**: results for model evaluation on real-time crash data.
+-**docs/**: Documentation of the methodology, model architecture, and findings from the study.
+-**README.md**: Overview of the project, setup instructions, and usage guidelines.
     
 Requirements:
 Python 3.x
