@@ -18,17 +18,17 @@
   
 ## Methodology
   ## Data Collection:
-    - Extracted crash data from Iowa DOT's Traffic Management Center (TMC) and vehicle trajectory data from Wejo.
-    - Data was geo-fenced within a 2-mile radius and 2-hour window around each crash for analysis.
+  - Extracted crash data from Iowa DOT's Traffic Management Center (TMC) and vehicle trajectory data from Wejo.
+  - Data was geo-fenced within a 2-mile radius and 2-hour window around each crash for analysis.
   ## Image Generation:
-    - Generated trajectory images representing crash and non-crash situations for each freeway segment.
-    - Created over 1000 labeled images for training, with 450 crash and 400 non-crash images.
+  - Generated trajectory images representing crash and non-crash situations for each freeway segment.
+  - Created over 1000 labeled images for training, with 450 crash and 400 non-crash images.
   ## Model Training:
-    - Developed a CNN model with three convolutional layers, followed by max pooling, flattening, and dense layers for image classification.
-    - Used Adam optimizer for improved training efficiency and accuracy.
+  - Developed a CNN model with three convolutional layers, followed by max pooling, flattening, and dense layers for image classification.
+  - Used Adam optimizer for improved training efficiency and accuracy.
   ## Evaluation:
-    - Assessed the model with a separate set of crash images to ensure robust detection capability.
-    - Observed some false positives, indicating areas for improvement in real-time deployment.
+  - Assessed the model with a separate set of crash images to ensure robust detection capability.
+  - Observed some false positives, indicating areas for improvement in real-time deployment.
     
 Requirements:
 Python 3.x
